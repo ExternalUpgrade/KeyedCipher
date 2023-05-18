@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Keyed Cipher Yes</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div>
+        <h1>Keyed Caeser Cipher</h1>
+        <p>Enter text:</p>
+        <textarea id="input" rows="3"></textarea>
+    </div>
+
+    <div>
+        <p>Key:</p>
+        <button onclick="generateKey()">Generate Key</button>
+        <p></p>
+        <textarea id="key" rows="3"></textarea>
+    </div>
+    
+    <div>
+        <button onclick="Encrypt()">Encrypt</button>
+        <button onclick="Decrypt()">Decrypt</button>
+    </div>
+
+    <div>
+        <p>Output:</p>
+        <textarea id="output" rows="3"></textarea>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
